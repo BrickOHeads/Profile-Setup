@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans';
+}
+
+body {font-family: 'Open Sans';
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+.radio {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  width: 70%;
+  /*flex-wrap: nowrap;*/
+  justify-content: space-between;
+  margin-left: 12%;
+  font-family: 'Open Sans';
+}
+/*.buttons {width: 50px;}*/
+
+/*.main_content {
+  width: 650px;
+}*/
+
+h1 {text-align: center;
+  font-family: 'Open Sans';
+  padding: 5%;}
+
+
+.main_content {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.txt_input {display: flex;
+  flex-direction: column;
+  margin: 1%;
+  width: 48%;
+  padding: 13px;
+  text-transform: lowercase;
+  font-weight: lighter;
+}
+label {
+  padding: 3%;
+}
+
+.txt_input input {
+    height: 45px;
+    padding: 3px;
+  }
+
+#email_address #confirm_password {align-items: right;}
+
+#proile_pic {
+  text-align: left;
+  font-family: 'Open Sans';
+}
+/*.Bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}*/
+.SIGN_button {
+  /*position: absolute;*/
+  align-items: right;
+}
+
+.SIGN_button button {
+  display: flex;
+  justify-content: center;
+  /*position: relative;*/
+  background-color: white;
+  border: 1px solid;
+  width: 45%;
+  border-radius: 1%;
+
+}
+
+.signupbtn {
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 53%;
+  padding: 1%;
+}
